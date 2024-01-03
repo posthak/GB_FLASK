@@ -2,13 +2,6 @@ from flask import Flask
 from flask import render_template
 
 app = Flask(__name__)
-# html = """<h1>Hi, my name ist Mic</h1>
-# <p>Already many years I create sites on Flask<br/>Have a look.</p>
-# """
-
-# @app.route('/')
-# def index():
-#     return 'Hi!'
 
 @app.route('/')
 def main():
